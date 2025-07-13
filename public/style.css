@@ -1,0 +1,104 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+/* Baris konten utama (3 kolom sejajar) */
+.content-row {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+form, .chart-box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 100%;
+}
+
+/* Formulir */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input, select, button {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #555;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  width: fit-content;
+  cursor: pointer;
+  background-color: #333;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.filter-row {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+/* Grafik */
+canvas {
+  width: 100% !important;
+  height: auto !important;
+  background-color: #1e1e1e;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+
+/* Tabel data */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #1e1e1e;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #2a2a2a;
+}
+
+/* Gambar bawah full */
+.footer-logo {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
