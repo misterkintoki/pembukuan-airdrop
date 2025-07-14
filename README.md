@@ -25,9 +25,9 @@ node server.js
 ```
 
 Akses aplikasi di browser melalui:
-```bash
-http://localhost:3000
-```
+
+[http://localhost:3000](http://localhost:3000)
+
 
 ## 📁 Struktur Folder
 ```plaintext
